@@ -35,7 +35,7 @@ ubuntu virtual machine and acting accordingly. All the cool kids are doing it. P
 If you're an OSX user and aren't using homebrew, I recommend it. 
 
 
-Subsitutions for Debian/Ubuntu distros (ymmv):
+Likely subsitutions for linux folk:
 
 * `brew install` -> `sudo apt install`
 * `.bash_profile` -> `.bashrc` (or whatever)
