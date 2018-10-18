@@ -221,8 +221,7 @@ bAcOn.;
 
     # just like above!
     def test_reducer(self):
-        patched_input = StringIO.StringIO("""
-bagel 1
+        patched_input = StringIO.StringIO("""bagel 1
 bagel 1
 bagel 1
 high kicks 1
