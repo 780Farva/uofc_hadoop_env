@@ -15,10 +15,10 @@ The hadoop cluster at U of C uses python 2.6.6, which further complicates things
 locally against python 2.7.0 won't help when it comes to syntax differences such as:
 
 2.7.0 set syntax:
-`primes = {1,3,5,7}`
+`primes = {1,2,3,5,7}`
 
 2.6.6 set syntax:
-`primes = set([1,3,5,7])`
+`primes = set([1,2,3,5,7])`
 
 Easy to get snagged by this sorta thing.
 
