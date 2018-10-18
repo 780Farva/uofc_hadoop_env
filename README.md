@@ -23,7 +23,7 @@ locally against python 2.7.0 won't help when it comes to syntax differences such
 Easy to get snagged by this sorta thing.
 
 So, we need a way to have 2.6.6 installed and run locally in such a way that it doesnt blow away our nice python (2.7.0) 
-and python3 installations. We'll use two tools: [pyenv](https://github.com/pyenv/pyenv/), 
+and python3 installations. To do this, we'll use: [pyenv](https://github.com/pyenv/pyenv/), 
 [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) and [virtualenv](https://github.com/pypa/virtualenv)
 
 
@@ -163,13 +163,13 @@ import sys
 import unittest
 
 
-# This is a helper method to take the our monkey-patched stdio and return a line-wise list of strings.
+# This is a helper function to take the our monkey-patched stdio and return a line-wise list of strings.
 # This makes assertions easier.
 def get_list(strio):
     return ast.literal_eval(str(strio.getvalue().strip().split('\n')))
 
 
-class TestQ1(unittest.TestCase):
+class TestExample(unittest.TestCase):
 
     # this is run before every test_<whatever> method below
     def setUp(self):
