@@ -28,6 +28,7 @@ and python3 installations. We'll use two tools: [pyenv](https://github.com/pyenv
 
 
 ## Disclaimer
+
 The instructions here were written for OSX. The pure-linux flavours are similar. Windows folks, I'd suggest using an
 ubuntu virtual machine and acting accordingly. All the cool kids are doing it. Peer pressure works.  
 
@@ -42,17 +43,21 @@ Subsitutions for Debian/Ubuntu distros (ymmv):
 ## Tool Overview
 
 ### virtualenv
+
 Read [this](https://virtualenv.pypa.io/en/stable/)!
 
 
 ###pyenv
+
 Read [this](https://github.com/pyenv/pyenv)!
     
 
 ### pyenv-virtualenv
+
 Surprise! Read [this](https://github.com/pyenv/pyenv-virtualenv).
 
 ### BONUS pipenv
+
 Not used for hadoop stuff, but hella good practice. Read up on this bad boy [here](https://github.com/pypa/pipenv).
 Never look back.
 
@@ -252,4 +257,4 @@ if __name__ == '__main__':
 
 ~~~
 
-No go have fun.
+Now go have fun.
