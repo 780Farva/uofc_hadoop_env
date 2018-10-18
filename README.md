@@ -110,8 +110,7 @@ Now you can run your mapper and reducer modules locally in a python environment 
 
 ### Sanity Check
 
-Try this. In a fresh directory, run each of these individually and
-observe the outpu:
+Try this. In a fresh directory, run each of these individually and observe the output:
 
 `python --version` (you probably see 2.7.0 or 3.x.x)
 
